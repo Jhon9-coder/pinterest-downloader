@@ -1,0 +1,20 @@
+{
+  "name": "pinterest-video-downloader",
+  "version": "1.0.0",
+  "description": "Self-hosted Pinterest Video Downloader with multi-quality support",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.7",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-rate-limit": "^7.2.0",
+    "random-useragent": "^0.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
